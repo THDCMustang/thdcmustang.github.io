@@ -1,0 +1,23 @@
+---
+layout: base
+---
+<br/>
+<div class="thdc-grid">
+  <div class="thdc-whole-page">
+    <h1 class="post-title">{{ page.title }}</h1>
+	<ul class="thdc-unstyled-list">
+	  <li><span><strong>Filename:</strong></span>&nbsp;&nbsp;<span>{{ page.filename }}</span></li>
+      <li><span><strong>Summary:</strong></span>&nbsp;&nbsp;<span>{{ page.summary }}</span></li>
+	  <li><span><strong>Date Posted:</strong></span>&nbsp;&nbsp;<span>{{ page.date_posted }}</span></li>
+	  <li><span><strong>Filesize:</strong></span>&nbsp;&nbsp;<span>{{ page.filesize }}</span></li>
+	  <li><span><strong>Tags:</strong></span>&nbsp;&nbsp;<span>{{ page.tags }}</span></li>
+	  <li><span><strong>Download Link:</strong></span>&nbsp;&nbsp;<span><a href="{{ page.download_link | prepend: site.baseurl }}">Click here to download</a></span></li>
+    </ul>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+</div>
+</div>

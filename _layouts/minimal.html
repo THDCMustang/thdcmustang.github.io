@@ -1,0 +1,81 @@
+---
+description: >
+  This layout can be used for any page requring access to the full width of the page, unconstrained by a grid.
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    {% if page.collection == "team" %}
+      <title>{{ page.firstname | escape }} {{ page.lastname | escape }} - {{ site.title | escape }}</title>
+    {% else %}
+      <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+    {% endif %}
+	
+	<base href="{{ site.baseurl }}" />
+	<link rel="shortcut icon" href="{{ '/assets/img/favicons/favicon-16.png' | prepend: site.baseurl }}">
+    <link rel="icon" sizes="16x16" href="{{ '/assets/img/favicons/favicon-16.png' | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ '/assets/css/thdc.min.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	
+    <script src="{{ '/assets/js/thdc.min.js' | prepend: site.baseurl }}"></script>
+	
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82097838-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+	
+  </head>
+  <body class="{{ page.bodyClasses }}">
+
+    {% include header.html %}
+
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+
+    {% include footer.html %}
+
+    <script>
+
+      // Handle the nav toggle button click event.
+      var $navToggleButton = document.getElementById("nav-toggle-button");
+      $navToggleButton.addEventListener("click", function () {
+        document.getElementsByClassName("nav-list")[0].classList.toggle("nav-revealed");
+      });
+
+      // On the front page, add dynamic effects to the nav bar upon scrolling.
+      if (document.body.classList.contains("front")) {
+        // Initially set the nav to transparent.
+        var $navPrimary = document.getElementById("nav-primary");
+        $navPrimary.classList.add("nav-transparent");
+        // Remove transparency when scrolling down.
+        var $hero = document.getElementById("front-hero");
+        var triggerPoint = 120; //$hero.offsetHeight - 120;
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > triggerPoint) {
+            $navPrimary.classList.remove("nav-transparent");
+          } else {
+            $navPrimary.classList.add("nav-transparent");
+          }
+        });
+      }
+
+    </script>
+
+  </body>
+</html>

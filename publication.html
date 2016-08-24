@@ -1,0 +1,30 @@
+---
+title: Publication
+layout: base
+permalink: /publication/
+---
+
+<div class="thdc-grid">
+  <div class="thdc-whole-page">
+    <h1>Publication</h1>
+    <p>Download latest updates from the THDC, Mustang.</p>
+    <ul class="thdc-unstyled-list">
+      {% for page in site.pages reversed %}
+        {% if page.layout == 'publication' and page.status == 'active' %}
+          {% unless page.title contains 'Publication Title' %}{% comment %} Filter out the example page {% endcomment %}
+          <li>
+            <h2>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title }}</a>
+            </h2>
+            <li><span><strong>Filename:</strong></span>&nbsp;&nbsp;<span>{{ page.filename }}</span></li>
+            <li><span><strong>Summary:</strong></span>&nbsp;&nbsp;<span>{{ page.summary }}</span></li>
+			<li><span><strong>Date Posted:</strong></span>&nbsp;&nbsp;<span>{{ page.date_posted }}</span></li>
+            <li><span><strong>Filesize:</strong></span>&nbsp;&nbsp;<span>{{ page.filesize }}</span></li>
+			<li><span><strong>Download Link:</strong></span>&nbsp;&nbsp;<span><a href="{{ page.download_link | prepend: site.baseurl }}">Click here to download</a></span></li>
+          </li>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

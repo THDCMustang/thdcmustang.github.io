@@ -1,0 +1,34 @@
+---
+title: The Team
+permalink: /team/
+---
+
+<h1>The THDC, Mustang Team</h1>
+
+<ul class="team thdc-unstyled-list">
+{% assign members = site.team | sort: 'firstname' %}
+{% for member in members %}
+  <li>
+    <a href="{{ member.url | prepend: site.baseurl }}">
+      {% if member.photo %}
+        <img src="{{ site.baseurl }}/img/team/{{ member.photo }}" alt="Photo of {{ member.firstname }} {{ member.lastname }}">
+      {% else %}
+        <img src="{{ site.baseurl }}/img/ng_logo.svg" alt="Placeholder Nepal Government logo since {{ member.firstname }} {{ member.lastname }} does not have a photo yet">
+      {% endif %}
+    </a>
+    <div class="member-name">
+      <a href="{{ member.url | prepend: site.baseurl }}">{{ member.firstname }} {{ member.lastname }}</a>
+    </div>
+    {% if member.role %}
+      <div class="member-role">
+        {{ member.role }}
+      </div>
+    {% endif %}
+    {% if member.group %}
+      <div class="member-group">
+        {{ member.group }}
+      </div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

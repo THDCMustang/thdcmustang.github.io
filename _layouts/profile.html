@@ -1,0 +1,31 @@
+---
+layout: base
+description: >
+  This layout is used by the individual team member profile pages.
+---
+
+<div class="thdc-grid">
+  <p><a href="{{ '/team' | prepend: site.baseurl }}">&laquo; All team members</a></p>
+</div>
+
+<div class="team-member">
+  <div class="thdc-grid">
+    <div class="thdc-width-one-sixth">
+      {% if page.photo %}
+        <img src="{{ site.baseurl }}/img/team/{{ page.photo }}" alt="Photo of {{ page.firstname }} {{ page.lastname }}">
+      {% else %}
+        <img src="{{ site.baseurl }}/img/ng_logo.svg" alt="Placeholder Nepal Goverment logo since {{ page.firstname }} {{ page.lastname }} does not have a photo yet">
+      {% endif %}
+    </div>
+    <div class="thdc-width-five-sixths">
+      <h1>{{ page.firstname }} {{ page.lastname }}</h1>
+      {% if page.role %}<div class="member-role">{{ page.role }}</div>{% endif %}
+      {% if page.group %}<div class="member-group">{{ page.group }}</div>{% endif %}
+    </div>
+  </div>
+  <div class="thdc-grid">
+    <div class="thdc-width-one-whole">
+      {{ content }}
+    </div>
+  </div>
+</div>

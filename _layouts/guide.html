@@ -1,0 +1,29 @@
+---
+layout: base
+description: >
+  This layout is used by THDC, Mustang Guide pages.
+---
+
+<div class="thdc-grid">
+
+  <h1>Guides</h1>
+
+  <aside class="thdc-width-one-fourth guide-nav">
+    <ul class="thdc-sidenav-list">
+      <li>
+        <a href="{{ '/guides/' | prepend: site.baseurl }}">Guides</a>
+      </li>
+      {% for guide in site.guides %}
+        <li>
+          <a href="{{ guide.url }}">{{ guide.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <div class="thdc-width-three-fourths guide-content">
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+  </div>
+
+</div>

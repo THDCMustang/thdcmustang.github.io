@@ -1,0 +1,45 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: THDC, Mustang
+email: no-reply@thdcmustang.gov.np
+description: > # this means to ignore newlines until "baseurl:"
+  The Office of the Temperate Horticulture Development Center in Mustang.
+
+# baseurl: ""
+# url: "http://thdc.gov.np"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://thdcmustang.github.io" # the base hostname & protocol for your site
+twitter_username: THDCMustang
+github_username: THDCMustang
+medium_url: https://medium.com/@THDCMustang
+
+# Build settings
+markdown: kramdown
+permalink: /:month-:day-:year/:title.html
+
+collections:
+  blog_summaries:
+    output: true
+  team:
+    permalink: /team/:name/
+    output: true
+# Show future events
+future: True
+defaults:
+  -
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: guides
+    values:
+      layout: guide
+forms:
+- type: newsletter
+  heading: Sign up for updates from THDC
+  url: https://thdcmustang.us14.list-manage.com/subscribe/post?u=7edc562d5562d6debce7e8691&amp;id=a3dabb65d5
+  button: Subscribe
+  privacypolicy: Your privacy and security are important to us, we'll only share your information as described in the <a href="/privacy/">Privacy and Security Notice</a>	 

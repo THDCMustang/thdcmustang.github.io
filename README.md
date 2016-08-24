@@ -34,7 +34,7 @@ Steps for those *without* commit access:
 
 ## Feedback
 
-Give us your feedback! We'd love to hear it. [Open an issue and tell us what you think.](https://github.com/DevTHDC)
+Give us your feedback! We'd love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang)
 
 
 ## Public domain

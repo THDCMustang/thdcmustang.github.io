@@ -12,6 +12,29 @@ This repository is for our public-facing site, which is hosted on thdcmustang.go
 
 This is a Jekyll-based website designed to be published via GitHub Pages.
 
+## Installation
+This site is made with [Jekyll](http://www.jekyllrb.com). Once you've got
+[Ruby](https://www.ruby-lang.org/) on your computer, you can install the
+necessary dependencies using the following commands:
+
+```sh
+cd cg-landing
+gem install bundler
+bundle install
+```
+
+(Note: depending on how Ruby was installed, you may need to prefix the
+last two commands with `sudo`.)
+
+To start up the local server, run:
+
+```sh
+bundle exec jekyll serve --baseurl='' -w
+```
+
+Then visit [http://localhost:4000](http://localhost:4000) to view it. The `-w`
+(or `--watch`) flag tells Jekyll to rebuild the relevant pages when you edit
+the source files.
 
 ## Contributing
 

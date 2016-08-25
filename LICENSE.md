@@ -1,4 +1,4 @@
-Work of the Nepal Government.
+Work of the Government of Nepal.
 
 Additionally, we waive copyright and related rights in the work
 worldwide through the CC0 1.0 Universal public domain dedication.

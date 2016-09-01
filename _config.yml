@@ -19,6 +19,9 @@ medium_url: https://medium.com/@THDCMustang
 markdown: kramdown
 permalink: /:month-:day-:year/:title.html
 
+gems:
+  - jekyll-sitemap
+
 collections:
   blog_summaries:
     output: true

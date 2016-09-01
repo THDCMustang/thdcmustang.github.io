@@ -54,12 +54,3 @@ Steps for those *without* commit access:
 2. Make your changes in your fork.
 3. Commit the changes to your fork.
 4. Open a pull request to merge your fork into the upstream repository.
-
-
-## Feedback
-
-Give us your feedback! We would love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang)
-
-
-## Public domain
-By submitting a pull request, you agree to comply with the policies on our [LICENSE](LICENSE.md) page.

@@ -1,16 +1,15 @@
 THDC, Mustang Website
 ==========================
 
-## WELCOME!
-
-This repository is for our public-facing site, which is hosted on thdcmustang.gov.np. We're glad you're thinking about contributing to the THDC, Mustang open source project, that's awesome, we <3 you! We love all friendly contributions, and we welcome your ideas about how to make the thdcmustang.gov.np page more user friendly, accessible, elegant, and useful.
+This repository is for our public-facing site, which is hosted on thdcmustang.gov.np. We're so glad you're thinking about contributing to the THDC, Mustang open source project, that's awesome, we <3 you! We love all friendly contributions, and we welcome your ideas about how to make the thdcmustang.gov.np page more user friendly, accessible, elegant, and useful.
 
 If you are unsure about anything, ask us — or submit the issue or pull request anyway. If you’d prefer, you can also reach us by [email](mailto:thdcmustang@gmail.com). The worst that can happen is that we’ll politely ask you to change something. 
 
 
 ## Architecture
 
-This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator.
+This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator and designed to 
+be published via GitHub pages.
 
 ## Installation
 You can take all the files of this site and run them just on your computer 
@@ -54,3 +53,13 @@ Steps for those *without* commit access:
 2. Make your changes in your fork.
 3. Commit the changes to your fork.
 4. Open a pull request to merge your fork into the upstream repository.
+
+Feel free to ping [@MegaMind98](https://github.com/MegaMind98) with any questions you
+may have.
+
+## Feedback
+
+Give us your feedback! We would love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang)
+
+##Public domain
+All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.

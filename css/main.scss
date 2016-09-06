@@ -273,7 +273,7 @@ ul.team {
     }
   }
 
-  .member-role, .member-group {
+  .member-role, .member-group, .member-email, .member-phone {
     color: $color-gray;
     font-size: small;
   }
@@ -285,7 +285,7 @@ ul.team {
     margin-top: 0;
   }
 
-  .member-role, .member-group {
+  .member-role, .member-group, .member-email, .member-phone {
     color: $color-gray;
     font-size: 1.2em;
   }

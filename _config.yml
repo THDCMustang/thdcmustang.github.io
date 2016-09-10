@@ -22,6 +22,7 @@ permalink: /:month-:day-:year/:title.html
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   blog_summaries:

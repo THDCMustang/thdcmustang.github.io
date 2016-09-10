@@ -14,6 +14,7 @@ url: "http://thdcmustang.github.io" # the base hostname & protocol for your site
 twitter_username: THDCMustang
 github_username: THDCMustang
 medium_url: https://medium.com/@THDCMustang
+analytics_account: "UA-82826118-1"
 
 # Build settings
 markdown: kramdown

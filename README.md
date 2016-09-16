@@ -1,7 +1,7 @@
 THDC, Mustang Website
 ==========================
 
-This repository is for our public-facing site, which is hosted on thdcmustang.gov.np. We're so glad you're thinking about contributing to the THDC, Mustang open source project, that's awesome, we <3 you! We love all friendly contributions, and we welcome your ideas about how to make the thdcmustang.gov.np page more user friendly, accessible, elegant, and useful.
+This repository is for our public-facing site, which will be hosted on thdcmustang.gov.np. We're so glad you're thinking about contributing to the THDC, Mustang open source project, that's awesome, we <3 you! We love all friendly contributions, and we welcome your ideas about how to make the thdcmustang.gov.np page more user friendly, accessible, elegant, and useful.
 
 If you are unsure about anything, ask us — or submit the issue or pull request anyway. If you’d prefer, you can also reach us by [email](mailto:thdcmustang@gmail.com). The worst that can happen is that we’ll politely ask you to change something. 
 
@@ -60,6 +60,3 @@ may have.
 ## Feedback
 
 Give us your feedback! We would love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang)
-
-##Public domain
-All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.

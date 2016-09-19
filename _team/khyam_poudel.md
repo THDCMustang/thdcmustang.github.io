@@ -4,6 +4,8 @@ lastname: Poudel
 photo: 
 role: Non-Gazetted-I
 group: THDC, Marpha
-email: knpoudel@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 31
 layout: profile
 ---

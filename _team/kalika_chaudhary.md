@@ -4,6 +4,8 @@ lastname: Chaudhary
 photo: kalika_chaudhary.jpg
 role: Technical Assistant
 group: THDC, Marpha
-email: k.chaudhary@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 24
 layout: profile
 ---

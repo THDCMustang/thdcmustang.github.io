@@ -2,9 +2,10 @@
 firstname: Bishnu Prasad
 lastname: Giri
 photo: bishnu_giri.jpg
-role: Horticulture Development Officer/Information Officer
+role: Horticulture Development/Information Officer
 group: THDC, Mustang
-email: bp.giri@thdcmustang.gov.np
+email:
 phonenumber: +977 9857634280
+memberid: 11
 layout: profile
 ---

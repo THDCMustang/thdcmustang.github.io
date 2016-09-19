@@ -4,6 +4,8 @@ lastname: Subedi
 photo: shovakanta_subedi.jpg
 role: Non-Gazetted-Second Class
 group: THDC, Marpha
-email: sksubedi@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 41
 layout: profile
 ---

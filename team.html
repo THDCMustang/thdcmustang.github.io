@@ -6,7 +6,7 @@ permalink: /team/
 <h1>The THDC, Mustang Team</h1>
 
 <ul class="team thdc-unstyled-list">
-{% assign members = site.team | sort: 'firstname' %}
+{% assign members = site.team | sort: 'memberid' %}
 {% for member in members %}
   <li>
     <a href="{{ member.url | prepend: site.baseurl }}">

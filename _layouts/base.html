@@ -26,11 +26,9 @@ description: >
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	
     <script src="{{ '/assets/js/thdc.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript">window.liveSettings={api_key:"ff0fe0ab5dd94c2b9aa5ca25ab64bf8d"}</script>
-    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
-		
-  {% include analytics.html %}
-  {% seo %}
+    
+	{% include analytics.html %}
+    {% seo %}
 	
   </head>
   <body class="{{ page.bodyClasses }}">

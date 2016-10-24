@@ -17,6 +17,7 @@ medium_url: https://medium.com/@THDCMustang
 
 # Build settings
 markdown: kramdown
+exclude: [ 'README.md', 'Gemfile*' ]
 permalink: /:month-:day-:year/:title.html
 
 gems:

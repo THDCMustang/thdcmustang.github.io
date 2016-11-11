@@ -13,7 +13,7 @@ html {
  *    without disabling user zoom.
  */
 html {
-  font-family: "nta", Arial, sans-serif;
+  font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -733,7 +733,7 @@ button,
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1;
@@ -1194,7 +1194,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 2px solid #5b616b;
+  border: 1px solid #5b616b;
   border-radius: 0;
   box-sizing: border-box;
   color: #212121;
@@ -1301,7 +1301,7 @@ legend {
 
 .thdc-form-hint {
   color: #757575;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0;
 }
 
@@ -1609,7 +1609,7 @@ table td {
 }
 
 html {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 10px;
 }
 
@@ -1682,7 +1682,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   line-height: 1.3;
   margin-bottom: .5em;
   margin-top: 1.5em;
@@ -1714,7 +1714,7 @@ h5 {
 }
 
 h6 {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -1739,7 +1739,7 @@ dfn {
 .thdc-sans a,
 .thdc-sans li,
 .thdc-sans span {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 }
 
 .thdc-sans a {
@@ -1751,7 +1751,7 @@ dfn {
 .thdc-serif a,
 .thdc-serif li,
 .thdc-serif span {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
 }
 
 .thdc-display {
@@ -1775,7 +1775,7 @@ dfn {
 }
 
 .thdc-font-lead {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 2rem;
   line-height: 1.7;
   max-width: 77rem;
@@ -1929,7 +1929,7 @@ dfn {
 .thdc-accordion > ul > li,
 .thdc-accordion-bordered > ul > li {
   background-color: #f1f1f1;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
   width: 100%;
@@ -1955,7 +1955,7 @@ dfn {
   color: #212121;
   cursor: pointer;
   display: inline-block;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;
   margin: 0;
   padding: 1.5rem 5.5rem 1.5rem 3rem;
@@ -2004,7 +2004,7 @@ dfn {
 .thdc-accordion > li,
 .thdc-accordion-bordered > li {
   background-color: #f1f1f1;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
   width: 100%;
@@ -2058,7 +2058,7 @@ dfn {
   color: #212121;
   cursor: pointer;
   display: inline-block;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;
   margin: 0;
   padding: 1.5rem 5.5rem 1.5rem 3rem;
@@ -2143,7 +2143,7 @@ dfn {
 }
 
 .thdc-alert-text {
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -2926,7 +2926,7 @@ form [name="confirmPassword"] {
 
 .thdc-form-note {
   float: right;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.5rem;
   margin: 0 0 1.5rem;
 }
@@ -3247,7 +3247,7 @@ fieldset {
   border: none;
   color: #212121;
   display: block;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 1.3;
   padding: 0.85rem 1rem 0.85rem 1.8rem;
   text-decoration: none;
@@ -3587,7 +3587,7 @@ fieldset {
   border: none;
   color: #212121;
   display: block;
-  font-family: "nta", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 1.3;
   padding: 0.85rem 1rem 0.85rem 1.8rem;
   text-decoration: none;

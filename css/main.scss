@@ -7,7 +7,7 @@ $fa-font-path: "../fonts/font-awesome";
 
 $font-family-default: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $nav-breakpoint: 720px; // The point at which the nav bar collapses into a hamburger menu
-$thdc-disclaimer-height: 29px; // Height of the "official website " statement
+$thdc-banner-height: 29px; // Height of the "official website " statement
 $nav-height-mobile: 60px; // Nav bar height on small devices
 $nav-height: 100px; // Nav bar height on larger devices
 $nav-height-collapsed: 60px; // Nav bar height on larger devices after scrolling down
@@ -92,22 +92,9 @@ body.front {
 }
 
 body:not(.front) {
-  padding-top: $nav-height-mobile + $thdc-disclaimer-height;
+  padding-top: $nav-height-mobile + $thdc-banner-height;
   @media only screen and (min-width: $nav-breakpoint) {
-    padding-top: $nav-height + $thdc-disclaimer-height;
-  }
-}
-
-.thdc-disclaimer {
-  max-height: 100px;
-  font-size: 1.2rem;
-  transition: all 0.25s ease;
-  background-color: $color-base;
-  color: $color-gray-lighter;
-  overflow: hidden;
-
-  a, a:visited {
-    color: white;
+    padding-top: $nav-height + $thdc-banner-height;
   }
 }
 
@@ -121,13 +108,6 @@ nav.nav-topnav {
 
   @media only screen and (min-width: $nav-breakpoint) {
     &.scrolled {
-      .thdc-disclaimer {
-        max-height: 0;
-        > * {
-          display: none;
-        }
-      }
-
       .nav-title {
         a.nav-title-logo img {
           height: 40px;
@@ -149,15 +129,6 @@ nav.nav-topnav {
 
     &.nav-transparent {
       background-color: transparent;
-      margin: 0.5em auto;
-
-      .thdc-disclaimer {
-        background: none;
-        color: $color-gray-lighter;
-        a {
-          color: white;
-        }
-      }
     }
   }
 
@@ -258,7 +229,7 @@ header#front-hero {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: ($nav-height-mobile + $thdc-disclaimer-height + 20px);
+  padding-top: ($nav-height-mobile + $thdc-banner-height + 20px);
   padding-bottom: 20px;
   @media only screen and (min-width: $nav-breakpoint) {
     min-height: 600px;
@@ -343,14 +314,15 @@ a[id]:not([href]) {
   display: block;
   position: relative;
   visibility: hidden;
-  top: -($nav-height-mobile + $thdc-disclaimer-height);
+  top: -($nav-height-mobile + $thdc-banner-height);
   @media only screen and (min-width: $nav-breakpoint) {
-    top: -($nav-height + $thdc-disclaimer-height);
+    top: -($nav-height + $thdc-banner-height);
   }
 }
 
 .download-list{margin-left:0;list-style:none}.download-list>li{width:45%;margin-right:4%;list-style:none;margin-bottom:20px;display:inline-block;vertical-align:top}.download-list>li>h2,.download-list>li>p{margin-bottom:0}.download-list>li>h2 a,.download-list>li>.organization,.download-list>li>.rate{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;display:block}@media screen and (max-width: 600px){.download-list>li{width:95%}}
 .post-title{font-size:42px;letter-spacing:-1px;line-height:1.6}@media screen and (max-width: 800px){.post-title{font-size:36px}}
+
 section.site-album {
     width: 100%;
     font-size: 0;
@@ -452,13 +424,6 @@ section.site-album {
 footer {
   color: white;
   padding: 1em 0;
-
-  .ng-built-by p {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ddd;
-  }
 
   .ng-logo {
     width: auto;

@@ -1,4 +1,4 @@
-Temperate Horticulture Development Center(THDC) Website 
+THDC, Mustang Website 
 ==========================
 
 ## WELCOME!

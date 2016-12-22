@@ -50,4 +50,4 @@ may have.
 
 ## Feedback
 
-Give us your feedback! We would love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang/issues)
+Give us your feedback! We would love to hear it. [Open an issue and tell us what you think.](https://github.com/THDCMustang/thdcmustang.github.io/issues)

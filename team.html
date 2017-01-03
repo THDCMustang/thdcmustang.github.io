@@ -1,40 +1,44 @@
 ---
+layout: base
 title: The Team
 permalink: /team/
 ---
 
 <br>
-  <div class="thdc-grid">
-    <div class="thdc-width-two-thirds">
-      <h1>The THDC, Mustang Team</h1>
-      <p class="thdc-font-lead">Each and every one of our employees represent the spirit of our group: driven, committed, and acutely aware of how limitless THDC's potential is to grow. </p>
-    </div>
+<div class="thdc-grid">
+  <div class="thdc-width-two-thirds">
+    <h1>The THDC, Mustang Team</h1>
+    <p class="thdc-font-lead">Each and every one of our employees represent the spirit of our group: driven, committed, and acutely aware of how limitless THDC's potential is to grow. </p>
   </div>
-<br><br>
-<ul class="team thdc-unstyled-list">
-{% assign members = site.team | sort: 'memberid' %}
-{% for member in members %}
-  <li>
-    <a href="{{ member.url | prepend: site.baseurl }}">
+</div>
+<br>
+<br>
+<div class="thdc-grid">
+  <div class="thdc-width-one-whole">
+    <ul class="team thdc-unstyled-list">
+      {% assign members = site.team | sort: 'memberid' %} {% for member in members %}
+      <li>
+        <a href="{{ member.url | prepend: site.baseurl }}">
       {% if member.photo %}
         <img src="{{ site.baseurl }}/img/team/{{ member.photo }}" alt="Photo of {{ member.firstname }} {{ member.lastname }}">
       {% else %}
         <img src="{{ site.baseurl }}/img/ng_logo.png" alt="Placeholder Nepal Government logo since {{ member.firstname }} {{ member.lastname }} does not have a photo yet">
       {% endif %}
     </a>
-    <div class="member-name">
-      <a href="{{ member.url | prepend: site.baseurl }}">{{ member.firstname }} {{ member.lastname }}</a>
-    </div>
-    {% if member.role %}
-      <div class="member-role">
-        {{ member.role }}
-      </div>
-    {% endif %}
-    {% if member.group %}
-      <div class="member-group">
-        {{ member.group }}
-      </div>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+        <div class="member-name">
+          <a href="{{ member.url | prepend: site.baseurl }}">{{ member.firstname }} {{ member.lastname }}</a>
+        </div>
+        {% if member.role %}
+        <div class="member-role">
+          {{ member.role }}
+        </div>
+        {% endif %} {% if member.group %}
+        <div class="member-group">
+          {{ member.group }}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

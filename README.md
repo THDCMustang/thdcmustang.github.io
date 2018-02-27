@@ -18,7 +18,7 @@ as if it were live online, only it is just on your machine though. Once you have
 necessary dependencies using the following commands:
 
 ```sh
-cd cg-landing
+cd thdcmustang.github.io
 gem install bundler
 bundle install
 ```

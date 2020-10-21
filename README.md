@@ -1,5 +1,5 @@
-THDC, Mustang Website
-==========================
+THDC, Mustang Website 
+=======
 
 This repository is for our public-facing site, which will be hosted on thdcmustang.gov.np. We're so glad you're thinking about contributing to the THDC, Mustang's open source project, that's awesome, we <3 you! We love all friendly contributions, and we welcome your ideas about how to make the thdcmustang.gov.np page more user friendly, accessible, elegant, and useful.
 

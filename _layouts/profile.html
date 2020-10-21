@@ -14,13 +14,15 @@ description: >
       {% if page.photo %}
         <img src="{{ site.baseurl }}/img/team/{{ page.photo }}" alt="Photo of {{ page.firstname }} {{ page.lastname }}">
       {% else %}
-        <img src="{{ site.baseurl }}/img/ng_logo.svg" alt="Placeholder Nepal Goverment logo since {{ page.firstname }} {{ page.lastname }} does not have a photo yet">
+        <img src="{{ site.baseurl }}/img/ng_logo.png" alt="Placeholder Government of Nepal logo since {{ page.firstname }} {{ page.lastname }} does not have a photo yet">
       {% endif %}
     </div>
     <div class="thdc-width-five-sixths">
       <h1>{{ page.firstname }} {{ page.lastname }}</h1>
       {% if page.role %}<div class="member-role">{{ page.role }}</div>{% endif %}
       {% if page.group %}<div class="member-group">{{ page.group }}</div>{% endif %}
+      {% if page.phonenumber %}<div class="member-phone">{{ page.phonenumber }}</div>{% endif %}
+      {% if page.email %}<div class="member-email">{{ page.email }}</div>{% endif %}
     </div>
   </div>
   <div class="thdc-grid">

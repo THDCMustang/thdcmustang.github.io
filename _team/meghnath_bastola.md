@@ -4,6 +4,8 @@ lastname: Bastola
 photo: meghnath_bastola.jpg
 role: 
 group: THDC, Marpha
-email: mbastola@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 14
 layout: profile
 ---

@@ -4,6 +4,8 @@ lastname: Tamang
 photo: jiwan_tamang.jpg
 role: 
 group: THDC, Marpha
-email: jtamang@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 13
 layout: profile
 ---

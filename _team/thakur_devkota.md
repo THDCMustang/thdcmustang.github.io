@@ -4,6 +4,8 @@ lastname: Devkota
 photo: thakur_devkota.jpg
 role: Technical Assistant
 group: THDC, Mustang
-email: tp.devkota@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 4
 layout: profile
 ---

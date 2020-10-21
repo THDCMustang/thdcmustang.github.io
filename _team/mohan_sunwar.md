@@ -4,6 +4,8 @@ lastname: Sunwar
 photo: 
 role: 
 group: THDC, Marpha
-email: mbsunwar@thdcmustang.gov.np
+email: 
+phonenumber: 
+memberid: 15
 layout: profile
 ---

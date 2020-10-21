@@ -4,6 +4,8 @@ lastname: Ghimire
 photo: bhimnath_ghimire.jpg
 role: Horticulture Development Officer
 group: THDC, Mustang
-email: bn.ghimire@thdc.gov.np
+email:
+phonenumber: 
+memberid: 3
 layout: profile
 ---
